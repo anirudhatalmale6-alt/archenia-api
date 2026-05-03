@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/archenia", "dest": "/api/archenia" }
+  ]
+}

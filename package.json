@@ -1,5 +1,9 @@
 {
-  "name": "archenia-api",
+  "name": "project",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "node canary.js && tsc",
+    "prepare": "node canary.js"
+  }
 }
